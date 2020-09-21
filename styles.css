@@ -8,6 +8,8 @@ body {
   font-size: 3rem;
   margin:  5%;
   color: #FEF2BF;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .container {
@@ -50,4 +52,10 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+.play {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  padding: 10px;
+  margin-top: : 0;
 }
