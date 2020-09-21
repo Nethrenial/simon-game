@@ -100,7 +100,7 @@ function checkAnswer(currentLevel) {
     setTimeout(function() {
       $("body").removeClass("gameover");
     }, 200);
-    $("h1").text("Game Over, Press A Key or the Button to Retart,Your score is "+ score +"!");
+    $("h1").text("Game Over, Press A Key or the Button to Restart,Your score is "+ score +"!");
     $("button").css("visibility","visible");
     $("button").text("Restart!");
     startOver();
